@@ -1,0 +1,31 @@
+The purpose of this journal is to keep track of my progress, troubles and thoughts
+about the CCD analysis of the Optics Calibration data we took in NASA Marshall during
+2017.
+
+@Milo
+
+*********************************
+Dec 28, 2017 
+*********************************
+
+    * One of the first goals of this analysis is to extract the HPD from the CCD
+      data we took at NASA Marshall.
+    * All the progress is been reginstered in Jupyter Notebooks located in the folder
+      Notebooks.
+    * I began a test by creating a serie of Notebooks entitled: "HPD_test_**" where
+      the ** refers to enumerate label I used to keep track of my progress in this
+      respect.
+
+*********************************
+Dec 29, 2017 
+*********************************
+
+    * The problem of this standard way to read the data is that is not clear how we
+      can substract the dark-frames from the data since the name of the file is used
+      as input for the AndorCCD functions.
+    * Task: To find an easy way to substract the dark frames before plotting or
+      processing the data.
+
+
+
+
